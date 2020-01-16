@@ -1,1 +1,1 @@
-const baseUrl = "http://192.168.1.84/generic";
+const baseUrl = "file:///C:/Dev/github/genericauthenticationservice/";
