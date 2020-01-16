@@ -1,0 +1,1 @@
+const baseUrl = "file:///C:/Dev/github/genericauthenticationservice/";
