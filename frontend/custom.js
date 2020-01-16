@@ -17,3 +17,17 @@ form.onsubmit = function(event) {
 
   console.log(request.response);
 }
+
+$( document ).ready(function() {
+  function authenticate(){
+    $.ajax({
+      url: baseUrl + '/backend/api.php',
+      crossDomain : true,
+      datatype: 'json',
+      success: function(result){
+        console.log(result);
+    }});
+  }
+ 
+});
+
